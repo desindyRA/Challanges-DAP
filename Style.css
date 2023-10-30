@@ -1,0 +1,98 @@
+body {
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("gunung2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px; 
+    border-radius: 20px;
+    text-align: center;
+    width: 380px;
+}
+
+.cekbox{
+    display: flex;
+    text-align: left;
+    justify-content: start
+    /* justify-content: space-between; */
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #498d3c;
+    color: #211616;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.additional-options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.additional-options a {
+    text-decoration: none;
+    color: blue;
+}
+
+#register-container {
+    background-color: rgba(255, 255, 255);
+    padding: 25px;
+    width: 95%;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto; 
+    font-size: 15px;
+}
+
+
+#register-container.show h1 {
+    font-size: 24px;
+}
+
+
+#register-container .form-group {
+    margin: 20px 0;
+}
+
+#register-container .form-group input {
+    width: 95%;
+    font-size: 15px;
+}
+
+.form-group p {
+    margin: 0px 0; 
+}

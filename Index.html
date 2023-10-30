@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-container">
+            <img src="logo.png"><b>TREVELEEN</b>
+        </div>
+        <h1> MASUK</h1>
+        <p style="color: gray;"> DESINDY RIZKI ANINDITYAS</p>
+        <form>
+            <div class="form-group">
+                <label for="username">Username atau Email:</label>
+                <input type="text" id="username" name="username" required placeholder="cantiksekali@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="password">Kata Sandi:</label>
+                <input type="password" id="password" name="password" required placeholder="*********"> 
+            <div style="display: flex; justify-content: space-between; width: 100%;">
+                    <div class="cekbox" style="width: 50%;">
+                        <input type="checkbox" name="ingat" style="width: 10%;"><label for="ingat" style="margin-left: 5px; width: 100%;">Ingat Saya</label>
+                    </div>
+                    <a href="#" style="color: black; text-align: right; text-decoration: none;">Lupa Kata Sandi</a>
+                </div>
+            <button type="submit">Masuk</button>
+            <p align="center">Tidak Punya Akun? <a class="register-link" style="color: rgb(67, 136, 76);" href="#">Daftar</a>
+            </p>
+        </form>
+    </div>
+    <script src="Index.js"></script>
+</body>
+</html>
+
+
+ 
